@@ -5,7 +5,6 @@ C:\Users\Lirim\Desktop\Code\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BulkyBookWeb
 C:\Users\Lirim\Desktop\Code\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BulkyBookWeb.deps.json
 C:\Users\Lirim\Desktop\Code\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BulkyBookWeb.runtimeconfig.json
 C:\Users\Lirim\Desktop\Code\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BulkyBookWeb.dll
-C:\Users\Lirim\Desktop\Code\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\ref\BulkyBookWeb.dll
 C:\Users\Lirim\Desktop\Code\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BulkyBookWeb.pdb
 C:\Users\Lirim\Desktop\Code\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Humanizer.dll
 C:\Users\Lirim\Desktop\Code\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
@@ -266,3 +265,4 @@ C:\Users\Lirim\Desktop\Code\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\zh-Hant\Micr
 C:\Users\Lirim\Desktop\Code\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\runtimes\win-arm\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\Lirim\Desktop\Code\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\runtimes\win-arm64\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\Lirim\Desktop\Code\BulkyBook\BulkyBookWeb\obj\Debug\net6.0\BulkyBookWeb.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Lirim\Desktop\Code\BulkyBook\BulkyBookWeb\obj\Debug\net6.0\refint\BulkyBookWeb.dll

@@ -18,7 +18,8 @@
             <span asp-validation-for="DisplayOrder" class="text-danger"></span>
         </div>
         <button type="submit" class="btn btn-primary" style="width:150px">
-            Create</button>
+            Create
+        </button>
         <a asp-controller="Category" asp-action="Index" class="btn btn-secondary" style="width:150px">
             Back to List
         </a>
@@ -27,8 +28,8 @@
 
 @section Scripts{
     @{
-    <partial name=""
+        <partial name="_ValidationScriptsPartial" />
     }
-}
+    }
 
 
