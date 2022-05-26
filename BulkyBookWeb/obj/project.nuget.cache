@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c3Drf/fEhI4LN/ZDqauqvNIBVmnGD46qgIP+oTM1t4okzQ9njdpbDMuB4ESh5Cm5fwrtDcKzTyOzlq0hbiOlIg==",
+  "dgSpecHash": "NH2CdwZyvFfBwb4r5f6BPGar08XSdZL+7plddW+MSgGMb/LHZWHcVDQQ5j2bC+TG5p0yXysljgRTZj1sIPfyQQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lirim\\Desktop\\Code\\BulkyBook\\BulkyBookWeb\\BulkyBookWeb.csproj",
+  "projectFilePath": "C:\\Users\\Lirim\\Desktop\\.net 6\\BulkyBook\\BulkyBookWeb\\BulkyBookWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lirim\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Lirim\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
