@@ -1,5 +1,5 @@
-﻿using BulkyBookWeb.Data;
-using BulkyBookWeb.Models;
+﻿using BulkyBook.DataAccess;
+using BulkyBook.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BulkyBookWeb.Controllers
@@ -12,11 +12,14 @@ namespace BulkyBookWeb.Controllers
         {
             _db = db;
         }
+
+        [HttpGet]
         public IActionResult Index()
         {
-            IEnumerable<Category> objCategoryList = _db.Categories;
-            return View(objCategoryList);
+            IEnumerable<Category> categoryList = _db.Categories.AsEnumerable();
+            return View(categoryList);
         }
+
         public IActionResult Create()
         {
             return View();
