@@ -54,18 +54,18 @@ namespace BulkyBookWeb.Controllers
             {
                 return NotFound();
             }
-            //categoryFromDbFirst = _db.Categories.FirstOrDefault(u => u.Id == id);
+             var categoryFromDbFirst = _db.Categories.FirstOrDefault(u => u.Id == id);
             //categoryFromDbSingle = _db.Categories.SingleOrDefault(u => u.Id == id);
 
-            var categoryFromDb = _db.Categories.Find(id);
+            //var categoryFromDb = _db.Categories.Find(id);
 
-            if (categoryFromDb == null)
+            if (categoryFromDbFirst == null)
             {
                 return NotFound();
             }
 
             
-            return View(categoryFromDb);
+            return View(categoryFromDbFirst);
         }
 
         [HttpPost]
