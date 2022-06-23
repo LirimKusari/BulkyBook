@@ -24,20 +24,28 @@
     <div class="collapse navbar-collapse" id="navbarColor02">
       <ul class="navbar-nav me-auto">
         <li class="nav-item">
-           <a class="nav-link " asp-area="" asp-controller="home" asp-action="index">home</a>
+           <a class="nav-link" asp-area="Costumer" asp-controller="home" asp-action="index">Home</a>
+        </li>
+@*        <li class="nav-item">
+          <a class="nav-link " asp-area="Admin" asp-controller="category" asp-action="index">category</a>
+
         </li>
         <li class="nav-item">
-          <a class="nav-link " asp-area="" asp-controller="category" asp-action="index">category</a>
+          <a class="nav-link " asp-area="Admin" asp-controller="coverType" asp-action="index">CoverType</a>
         </li>
-        @*<li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+*@
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">CMS</a>
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
+                      <a class="nav-link " asp-area="Admin" asp-controller="category" asp-action="index">Category</a>
+
+            <a class="nav-link " asp-area="Admin" asp-controller="coverType" asp-action="index">CoverType</a>
+
+
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">Separated link</a>
-          </div>*@
+          </div>
         </li>
       </ul>
       <form class="d-flex">
