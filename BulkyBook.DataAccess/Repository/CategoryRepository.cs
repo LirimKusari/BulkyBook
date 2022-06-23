@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BulkyBook.DataAccess
+namespace BulkyBook.DataAccess.Repository
 {
     public class CategoryRepository : Repository<Category>, ICategoryRepository
     {
@@ -21,7 +21,7 @@ namespace BulkyBook.DataAccess
 
         public void Update(Category obj)
         {
-            _db.Categories .Update(obj);
+            _db.Categories.Update(obj);
         }
     }
 }
