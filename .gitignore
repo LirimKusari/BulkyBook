@@ -370,6 +370,9 @@ healthchecksdb
 # Backup folder for Package Reference Convert tool in Visual Studio 2017
 MigrationBackup/
 
+Migration/
+
+
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
 
@@ -383,6 +386,7 @@ FodyWeavers.xsd
 !.vscode/launch.json
 !.vscode/extensions.json
 *.code-workspace
+.vs/*
 
 # Local History for Visual Studio Code
 .history/
