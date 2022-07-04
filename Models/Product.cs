@@ -16,7 +16,7 @@ namespace BulkyBook.Models
         [Required]
         public string ISBN { get; set; }
         [Required]
-        public int Author { get; set; }
+        public string Author { get; set; }
         [Required]
         [Range(1, 10000)]
         public double ListPrice { get; set; }
@@ -36,7 +36,7 @@ namespace BulkyBook.Models
         // [ForeignKey("CategoryId")] // .net maps categoryId as foreign key of Category class
         public Category Category { get; set; }
         [Required] 
-        public int CoverTypeID{ get; set; }
+        public int CoverTypeId{ get; set; }
         public CoverType CoverType { get; set; }
     }
 }
