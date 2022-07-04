@@ -31,7 +31,7 @@ namespace BulkyBook.DataAccess.Repository
                 objFromDb.ListPrice = obj.ListPrice;
                 objFromDb.Description = obj.Description;
                 objFromDb.CategoryId = obj.CategoryId;
-                objFromDb.CoverTypeID = obj.CoverTypeID;
+                objFromDb.CoverTypeId = obj.CoverTypeId;
                 objFromDb.Author = obj.Author;
                 if (obj.ImageUrl != null) {
                     objFromDb.ImageUrl = obj.ImageUrl;
